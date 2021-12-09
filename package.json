@@ -1,0 +1,20 @@
+{
+  "name": "fantasy_slack",
+  "version": "1.0.0",
+  "description": "A script to send fantasy draft messages to slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "premier-league-fantasy",
+    "scheduler"
+  ],
+  "author": "Daniel Freyr Sigurdsson and Daniel Guðnason",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.10"
+  }
+}
